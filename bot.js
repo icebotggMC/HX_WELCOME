@@ -25,7 +25,7 @@ client.on('message', msg => {
 
 client.on('ready', () => {
     console.log('Bot Is Ready Now !');
-    client.user.setGame(`FFUN | Welcome`,"http://twitch.tv/xkilleryt")
+    client.user.setGame(`HX| Welcome`,"http://twitch.tv/xkilleryt")
     });
 
 
