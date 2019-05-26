@@ -37,7 +37,7 @@ client.on('ready', () => {
 
 
 client.on('guildMemberAdd', member => {
-    let channel = member.guild.channels.find('name', '💬»chat-شات');
+    let channel = member.guild.channels.find('name', '●『chat』');
     let memberavatar = member.user.avatarURL
       if (!channel) return;
     let embed = new Discord.RichEmbed()
@@ -68,7 +68,7 @@ client.on('guildMemberAdd', member => {
         .setColor('PURPLE')
         .setFooter(`====اهلا السيرفر نور بيك و الله====`, 'https://cdn.discordapp.com/attachments/397818254439219217/399292026782351381/shy.png')
    
-    var channel =member.guild.channels.find('name', '💬»chat-شات')
+    var channel =member.guild.channels.find('name', '●『leave』')
     if (!channel) return;
     channel.send({embed : embed});
  
